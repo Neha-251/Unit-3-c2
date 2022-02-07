@@ -1,0 +1,67 @@
+*{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+#navbar{
+    display:flex;
+    height:25px;
+    width:98%;
+    font-size:20px;
+    border: 2px solid gold;
+    padding:5px;
+    color:blue;
+    margin-bottom: 30px;
+}
+#navbar div:nth-child(2){
+    margin-left:50%;
+    margin-right:50px;
+}
+h3{
+    color:crimson;
+    font-weight: 600;
+    font-style: italic;
+    text-shadow: 2px 2px gold;
+    margin-top: 0;
+
+}
+#navbar div{
+    margin-right: 30px;
+}
+
+#count{
+    border:1px solid red;
+    height:20px;
+    width:20px;
+    margin-left:40px;
+    padding:2px;
+}
+#mainDiv{
+    height:auto;
+    width:auto;
+    padding:20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+#menu{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap:20px;
+}
+
+#img{
+    height:300px;
+    width:300px;
+    border-radius: 10px;
+}
+#name{
+    font-size: 20px;
+    font-weight: 600;
+}
+#addtocart{
+    background-color: white;
+    border: 2px solid gold;
+    color:crimson;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}

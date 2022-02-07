@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style/checkout.css">
+    <title>Checkout</title>
+  </head>
+
+  <body>
+
+    <div id="navbar">
+      <!--Add menu divs here-->
+      <div>
+        <a href="index.html">
+          Menu </a>
+        </div>
+      <div>
+        <a href="cart.html">
+        Cart </a>
+      </div>
+      
+      <div id="count"></div>
+    </div>
+
+    <div id="order-form">
+      <!--Add your form html element here-->
+      <!--In form, give #name,#number and #address as HTML id's to relevant input elements -->
+
+      <form action="" >
+        <input type="text" placeholder="Name"> <br>
+        <input type="text" placeholder="Contact"> <br>
+        <input type="text" placeholder="PIN"> <br>
+        <input type="text" placeholder="Address"> <br>
+        <button onclick="placeOrder(event)">Place Order</button>
+      </form>
+
+
+    </div>
+  </body>
+
+</html>
+
+<script src="scripts/checkout.js"></script>

@@ -45,6 +45,7 @@ data.forEach(function (elem) {
     
     remove.addEventListener("click", function(){
         mainDiv.innerHTML = null;
+        totalValue = totalValue - elem.price;
     })
 
     mainDiv.append(img, name, price, remove);
